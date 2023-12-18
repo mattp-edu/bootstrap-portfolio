@@ -1,3 +1,46 @@
+:root {
+    --accent-color: #008507;
+}
 body {
     max-width: 1200px;
 }
+
+/* navbar style */
+
+.navbar {
+    height: 5rem;
+    background-color: black;
+}
+.navbar-brand {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-brand:hover {
+    color: var(--accent-color);
+}
+.nav-text {
+    text-transform: uppercase;
+    font-size: large;
+    text-decoration: none !important;
+    color: var(--accent-color);
+}
+.nav-text:hover {
+    color: var(--accent-color);
+}
+.nav-item:hover {
+    border: #008507 solid 1px;
+    border-radius: 10px;
+    color: inherit;
+}
+
+/* hero style */
+.hero {
+    background-image: url(../images/ocean-8283187_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
