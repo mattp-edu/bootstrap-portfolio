@@ -145,3 +145,26 @@ a:focus, a:hover {
     border-radius: 0.5rem;
     border: 0.3rem solid var(--accent-color);
 }
+
+/* contact */
+
+.contact {
+    color: white;
+    background-image: url(../images/ocean-3605547_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutText {
+    background-color: rgba(0,0,0,0.7);
+    border-left: 4px solid var(--accent-color);
+    color: lightgrey;
+    padding: 3rem;
+}
+
+.contactCard {
+    background-color: rgba(0,0,0,0.7);
+    border-left: 4px solid var(--accent-color);
+    padding: 1rem;
+}
