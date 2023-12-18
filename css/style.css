@@ -168,3 +168,14 @@ a:focus, a:hover {
     border-left: 4px solid var(--accent-color);
     padding: 1rem;
 }
+
+/* footer */
+footer {
+    background-color: black;
+    height: 4rem;
+}
+
+footer svg:hover {
+    background-color: var(--accent-color);
+    box-shadow: 0px 0px 5px 5px rgba(var(--accent-color-raw),1);
+}
